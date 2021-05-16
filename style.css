@@ -1,0 +1,40 @@
+<style>
+  #first{
+    color: orange;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #article{
+    padding-left: 50px;
+    text-align: center;
+  }
+  body{
+    margin: 0;
+  }
+  a{
+    color:green;
+    text-decoration: none;
+  }
+  h1{
+    font-size: 60px;
+    text-align: center;
+    border-bottom:3px solid green;
+    margin: 0;
+    padding: 20px;
+  }
+  #grid ol{
+    border-right: 3px solid green;
+    width: 130px;
+    margin:0;
+    padding: 20px;
+    padding-left: 40px;
+
+  }
+  @media(max-width:500px) {
+    #grid{display: block;}
+    #grid ol{border-right: none;}
+    #article{padding-left: 0px;}
+    }
+</style>
